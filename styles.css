@@ -26,29 +26,28 @@ p{
 
 /*Ativando flexbox no conteiner*/
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .area{
     width: 100px;
     height: 100px;
 
-    flex-basis: 400px;
-    flex-grow: 1;
+   font-size: 25px;
 }
 
 .item-1{
     background-color: red;
-    flex-shrink: 1;
+    order: 3;
    
 }
 
 .item-2{
     background-color: blue;
-   flex-shrink: 1;
+   order: 2;
 }
 
 .item-3{
     background-color: darkgreen;
-   flex-shrink: 2;
+   order: 1;
 }
