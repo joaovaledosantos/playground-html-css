@@ -26,7 +26,12 @@ p{
 
 /*Ativando flexbox no conteiner*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+  
+/* justifique-content: flex-end; Alinha no final da linha no topo*/
+/*   justifique-content: center; Alinha no centro da linha no topo*/
+/*   justifique-content: space-around; Espaçamento igual entre eles com folga nos cantos*/
 }
 
 .area{
@@ -38,16 +43,20 @@ p{
 
 .item-1{
     background-color: red;
-    order: 3;
+    
    
 }
 
 .item-2{
     background-color: blue;
-   order: 2;
+   
 }
 
 .item-3{
     background-color: darkgreen;
-   order: 1;
+  
+}
+
+.item-4{
+    background-color: brown;
 }
