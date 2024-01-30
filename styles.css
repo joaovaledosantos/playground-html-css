@@ -9,7 +9,7 @@ body{
  height: 180vh;
 }
 
-h1,p{
+p{
     color: #F0FFFF;
 
 }
@@ -37,16 +37,12 @@ h1,p{
     > 5.Sticky
     */
 
-.area{
-    
-    width: 200px;
-    height: 80px;
-    background-color: green;
-    position: fixed;
-    bottom: 50px;
-    right: 80px;
 
-/*    top: 50px;*/
+
+header{
+    background-color: cyan;
+    width: 100%;
+
+    position: sticky;
+    top: 0;
 }
-
-
