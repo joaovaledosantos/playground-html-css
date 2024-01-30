@@ -27,7 +27,10 @@ p{
 /*Ativando flexbox no conteiner*/
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+
+    align-items: center;
+    justify-content: center;
+    
   
 /* justifique-content: flex-end; Alinha no final da linha no topo*/
 /*   justifique-content: center; Alinha no centro da linha no topo*/
