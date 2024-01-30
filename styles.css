@@ -1,12 +1,16 @@
       
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 
 
 body{
- font-family: 'Roboto' sans-serif;
- height: 180vh;
+    font-family: 'Roboto' sans-serif;
+   height: 180vh;
+   color: #F0FFFF;
 }
 
 p{
@@ -26,16 +30,7 @@ p{
 
 }
 
-    /* 
-    > 1.Por padrao temos o static ou seja estatico.
-    > 2.Relative elemento é posicionado em relaçao a sua posiçao normal.
-      (top, botton, left, right)
-    > 3.Absolute: é posicionado em relaçao ao seu elemento pai mis proximo
-     que possui relative se nao tiver relative é posicionado em 
-     relaçao ao body
-    > 4.Fixed
-    > 5.Sticky
-    */
+
 
 
 
